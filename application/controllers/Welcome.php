@@ -22,4 +22,8 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('siswa/index');
 	}
+
+	public function rand()
+	{	$this->load->view('dosen/index');
+	}
 }
